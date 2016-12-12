@@ -1,0 +1,11 @@
+E:\vb.net\tarot\tarot\bin\Debug\tarot.exe.config
+E:\vb.net\tarot\tarot\bin\Debug\tarot.exe
+E:\vb.net\tarot\tarot\bin\Debug\tarot.pdb
+E:\vb.net\tarot\tarot\bin\Debug\tarot.xml
+E:\vb.net\tarot\tarot\obj\Debug\tarot.vbprojResolveAssemblyReference.cache
+E:\vb.net\tarot\tarot\obj\Debug\tarot.Form1.resources
+E:\vb.net\tarot\tarot\obj\Debug\tarot.Resources.resources
+E:\vb.net\tarot\tarot\obj\Debug\tarot.vbproj.GenerateResource.Cache
+E:\vb.net\tarot\tarot\obj\Debug\tarot.exe
+E:\vb.net\tarot\tarot\obj\Debug\tarot.xml
+E:\vb.net\tarot\tarot\obj\Debug\tarot.pdb
