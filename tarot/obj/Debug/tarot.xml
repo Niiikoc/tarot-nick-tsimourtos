@@ -57,6 +57,11 @@ tarot
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:tarot.My.Resources.Resources.giphy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:tarot.My.Resources.Resources.hangedman">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -100,6 +105,11 @@ tarot
 <member name="P:tarot.My.Resources.Resources.tarot_full">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:tarot.My.Resources.Resources.tarotmusic">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
 </member>
 <member name="P:tarot.My.Resources.Resources.tarott">

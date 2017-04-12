@@ -1,11 +1,12 @@
-﻿Public Class Form1
+﻿
+Public Class Form1
     Dim ButtonOneClick, buttontwoclick, buttonthreeclick, buttonfourclick As Boolean
     Dim random1 As Byte
     Dim random2 As Byte
     Dim random3 As Byte
     Dim random4 As Byte
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        buttononeclick = True
+        ButtonOneClick = True
 
         Randomize()
         random1 = (Rnd() * 5) + 1
@@ -102,10 +103,6 @@
         Button2.Visible = True
         PictureBox5.Visible = True
         TextBox2.Visible = True
-    End Sub
-
-    Private Sub Button5_Click(sender As Object, e As EventArgs)
-
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
@@ -311,16 +308,45 @@
         End If
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+    Private Sub Label2_Click(sender As Object, e As EventArgs)
         Label2.Text = "Ανακάλυψε τη μοίρα που σου επιφυλάσσει το μέλλον..."
     End Sub
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
     End Sub
 
-    Private Sub Button5_Click_1(sender As Object, e As EventArgs) Handles Button5.Click
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs)
+        Application.Exit()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs)
+        MessageBox.Show("Ευχαριστούμε που μας εμπιστευτήκατε..")
+        Application.Exit()
+    End Sub
+
+    Private Sub Button7_Click_1(sender As Object, e As EventArgs)
+        MessageBox.Show("Ευχαριστούμε που μας εμπιστευτήκατε!!")
+        Application.Exit()
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs)
+        My.Computer.Audio.Stop()
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs)
+        My.Computer.Audio.Play("E:\vb.net\tarot\tarotmusic.wav", AudioPlayMode.Background)
+
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        PictureBox3.Visible = False
+        Button10.Visible = False
+    End Sub
+
+    Private Sub Button5_Click_2(sender As Object, e As EventArgs) Handles Button5.Click
         Dim ilikia As Integer = (TextBox7.Text)
-        If TextBox7.Text = "" Then
+        If TextBox7.Text = (Text.Empty) Then
             MessageBox.Show("Παρακαλώ βάλε την ηλικία σου.")
         End If
         If TextBox7.Text <> "" Then
@@ -334,16 +360,50 @@
         End If
     End Sub
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs)
+    Private Sub Button8_Click_2(sender As Object, e As EventArgs) Handles Button8.Click
+        My.Computer.Audio.Play("E:\vb.net\tarot\tarotmusic.wav", AudioPlayMode.Background)
+    End Sub
+
+    Private Sub Button9_Click_1(sender As Object, e As EventArgs) Handles Button9.Click
+        My.Computer.Audio.Stop()
+    End Sub
+
+    Private Sub Button7_Click_2(sender As Object, e As EventArgs) Handles Button7.Click
+        MessageBox.Show("Αν θέλετε 24ωρη ζωντανή εξυπηρέτηση καλέστε στο 210-5542755 και η πιο έγκυρη ομάδα ταρώ θα σας εξυπηρετήσει!")
+        MessageBox.Show("Ευχαριστούμε που μας εμπιστευτήκατε!!")
+
         Application.Exit()
     End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs)
-        MessageBox.Show("Ευχαριστούμε που μας εμπιστευτήκατε..")
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs)
+        MessageBox.Show("Ευχαριστούμε που μας εμπιστευτήκατε!!")
         Application.Exit()
     End Sub
 
-    Private Sub Button7_Click_1(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button13_Click(sender As Object, e As EventArgs)
+        My.Computer.Audio.Play("E:\vb.net\tarot\tarotmusic.wav", AudioPlayMode.Background)
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs)
+        My.Computer.Audio.Stop()
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+    End Sub
+
+    Private Sub Button12_Click_1(sender As Object, e As EventArgs) Handles Button12.Click
+        My.Computer.Audio.Play("E:\vb.net\tarot\tarotmusic.wav", AudioPlayMode.Background)
+    End Sub
+
+    Private Sub Button11_Click_1(sender As Object, e As EventArgs) Handles Button11.Click
+        My.Computer.Audio.Stop()
+    End Sub
+
+    Private Sub Button13_Click_1(sender As Object, e As EventArgs) Handles Button13.Click
         MessageBox.Show("Ευχαριστούμε που μας εμπιστευτήκατε!!")
         Application.Exit()
     End Sub
@@ -451,13 +511,13 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        My.Computer.Audio.Play(My.Resources.tarotmusic, AudioPlayMode.BackgroundLoop)
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        Dim apanthseis() = {"Δεν εχω και πολλά λόγια να σου πω. σε γενικές γραμμές η ζωή σου ειναι ισοροπημένη και άλλες πάλι ειναι σαν να ποδοπατήθηκε απο ταύρους. 
-           Ζήσε με περισσότερη τρέλα και αν πάθεις κατι, το έπαθες!! Τουλάχιστον θα έχεις ζήσει κάτι.
-Τα ταρώ θα είναι εδώ να σου δείχνουν το δρόμο για την ευτυχία",
+        Dim apanthseis() = {"Δεν εχω και πολλά λόγια να σου πω. σε γενικές γραμμές η ζωή σου ειναι ισοροπημένη και άλλες πάλι ειναι σαν να ποδοπατήθηκε απο ταύρους.",
+           "Ζήσε με περισσότερη τρέλα και αν πάθεις κατι, το έπαθες!! Τουλάχιστον θα έχεις ζήσει κάτι.",
+"Τα ταρώ θα είναι εδώ να σου δείχνουν το δρόμο για την ευτυχία",
 "Η ζωή σου σε γενικές γραμμές είναι ισσοροπημένη, έχεις καλούς φίλους και βαδίζεις σε μονοπάτια που ξέρεις. Αλλά αυτό δεν σημαίνει ότι δεν θα την πατήσεις, πρόσεχε τον κλειστό σου κύκλο και ιδιαίτερα σε ποιον ανοίγεσαι!!",
 "Δεν θα έλεγα οτι είναι καλή περίοδος για να ανοιχτείς, τα οικονομικά σου δεν ειναι και στα καλύτερα τους, ουτε περίοδος για καινούργιους φίλους. Αφοσιώσου σε σένα και στην δουλειά σου πιο πολύ και όσο για τα άλλα έχεις καιρό.",
 "Θα συναντήσεις άτομα απο παλιά. Πρόσεχε πως θα αντιμετωπίσεις αυτές τις εκπλήξεις γιατί μπορεί να σου φέρουν πόνο και δυστυχία.",
@@ -477,7 +537,7 @@
             Button2.Visible = False
             Button3.Visible = False
             Button4.Visible = False
-        Else MessageBox.Show("Πρέπει να εμφανίσεις όλες τις κάρτες")
+        Else : MessageBox.Show("Πρέπει να εμφανίσεις όλες τις κάρτες")
         End If
         If TextBox5.Text <> "" Then
             Dim lastname As String = (TextBox5.Text)
@@ -503,7 +563,7 @@
                 MyStringBuilder.Append(apanthseis(apantisi))
                 TextBox6.Text = MyStringBuilder.ToString
             End If
-        Else MessageBox.Show("Πως γίνεται να μην έχεις όνομα?? Θέλεις να μάθεις την μοίρα σου, πληκτρολόγησε το όνομά σου")
+        Else : MessageBox.Show("Πως γίνεται να μην έχεις όνομα?? Είσαι απο άλλον πλανήτη?")
         End If
     End Sub
 End Class

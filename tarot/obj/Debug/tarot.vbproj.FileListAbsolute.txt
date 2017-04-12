@@ -9,3 +9,25 @@ E:\vb.net\tarot\tarot\obj\Debug\tarot.vbproj.GenerateResource.Cache
 E:\vb.net\tarot\tarot\obj\Debug\tarot.exe
 E:\vb.net\tarot\tarot\obj\Debug\tarot.xml
 E:\vb.net\tarot\tarot\obj\Debug\tarot.pdb
+G:\vb.net\tarot\tarot\bin\Debug\tarot.exe.config
+G:\vb.net\tarot\tarot\obj\Debug\tarot.exe
+G:\vb.net\tarot\tarot\obj\Debug\tarot.xml
+G:\vb.net\tarot\tarot\obj\Debug\tarot.pdb
+G:\vb.net\tarot\tarot\obj\Debug\tarot.vbprojResolveAssemblyReference.cache
+G:\vb.net\tarot\tarot\obj\Debug\tarot.Form1.resources
+G:\vb.net\tarot\tarot\obj\Debug\tarot.Resources.resources
+G:\vb.net\tarot\tarot\obj\Debug\tarot.vbproj.GenerateResource.Cache
+G:\vb.net\tarot\tarot\bin\Debug\tarot.exe
+G:\vb.net\tarot\tarot\bin\Debug\tarot.pdb
+G:\vb.net\tarot\tarot\bin\Debug\tarot.xml
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\bin\Debug\tarot.exe.config
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\obj\Debug\tarot.exe
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\obj\Debug\tarot.xml
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\obj\Debug\tarot.pdb
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\bin\Debug\tarot.exe
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\bin\Debug\tarot.pdb
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\bin\Debug\tarot.xml
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\obj\Debug\tarot.vbprojResolveAssemblyReference.cache
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\obj\Debug\tarot.Form1.resources
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\obj\Debug\tarot.Resources.resources
+C:\Users\nikos\Documents\Visual Studio 2015\Projects\tarot\tarot\obj\Debug\tarot.vbproj.GenerateResource.Cache
